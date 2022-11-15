@@ -1,0 +1,61 @@
+.header-area .main-nav .nav li a{
+    display: block;
+    
+   
+}
+.header-area{
+    background-color: aqua;
+    top: 30px;
+}
+
+
+.header-area .main-nav .nav li {
+    background-color: aquamarine;
+    display: inline-block;
+    margin: 10px;
+    /* display: inline-block;
+    margin: 10px; */   
+}
+
+.header-area .main-nav .nav{
+    margin-right: 40px;
+    padding-right: 0px;
+    background-color: rgb(204, 132, 39);
+    /* margin-right: 40px; */
+}
+
+.header-area .main-nav .logo{
+    float: left;
+    margin-left: -10px;
+    background-color: blue;
+    margin-right: 20px;
+    padding-right: 60px;
+    padding-left: 10px;
+    margin-top: 5px;
+    /* float: left;
+    margin-left: 30px;
+    margin-top: 5px; */
+}
+
+.header-area .container{
+    background-color: beige;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    Padding-right: 15px;
+    max-width: 960px;
+    
+    /* margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 960px; */
+}
+
+.welcome-area{
+    background-image: url(..images/banner-bg.png);
+    background-size: cover;
+    background-color: violet;
+    height: 100vh;
+    ;
+}
