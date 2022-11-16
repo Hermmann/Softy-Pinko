@@ -4,13 +4,16 @@
    
 }
 .header-area{
-    background-color: aqua;
+    /* background-color: aqua; */
     top: 30px;
+    position: fixed;
+    left: 0px;
+    right: 0px;
 }
 
 
 .header-area .main-nav .nav li {
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     display: inline-block;
     margin: 10px;
     /* display: inline-block;
@@ -20,14 +23,14 @@
 .header-area .main-nav .nav{
     margin-right: 40px;
     padding-right: 0px;
-    background-color: rgb(204, 132, 39);
+    /* background-color: rgb(204, 132, 39); */
     /* margin-right: 40px; */
 }
 
 .header-area .main-nav .logo{
     float: left;
     margin-left: -10px;
-    background-color: blue;
+    /* background-color: blue; */
     margin-right: 20px;
     padding-right: 60px;
     padding-left: 10px;
@@ -38,12 +41,13 @@
 }
 
 .header-area .container{
-    background-color: beige;
+    /* background-color: beige; */
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     Padding-right: 15px;
     max-width: 960px;
+   
     
     /* margin-left: auto;
     margin-right: auto;
@@ -53,9 +57,29 @@
 }
 
 .welcome-area{
-    background-image: url(..images/banner-bg.png);
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("..assets/img/banner-bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
-    background-color: violet;
     height: 100vh;
-    ;
+    border: solid red;
+}
+
+.header-text {
+  text-align: center;
+  top: 50%;
+  position: absolute;
+  width: 100%;
+  border: solid black;
+  transform: translatey(-300px);
+}
+
+.header-text .container{
+    text-align: center;
+
 }
